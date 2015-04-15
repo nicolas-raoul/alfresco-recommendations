@@ -5,11 +5,11 @@ Installation guide
 
 This project contains three subprojects
 
-- fivestar
+- fivestart
 - zaizi-mahout-alfresco4
 - zaizi-recommendations-dashlet-alfresco4
 
-Fivestar installation
+Fivestart installation
 
 It is a maven project based on alfresco allinone archetype, so you only need to do a mvn clean package to get
 the amps files. If you have any doubt please visit http://docs.alfresco.com/4.2/tasks/dev-extensions-maven-sdk-tutorials-all-in-one-archetype.html.
