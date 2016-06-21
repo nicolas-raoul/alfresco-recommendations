@@ -1,7 +1,12 @@
 alfresco-recommendations
 ========================
 
-Installation guide
+alfresco-recommendations suggests documents that have been rated favorably by other users who have the same tastes.
+
+When a user gives a rating (out of five stars) to a document, a "Rateable" aspect is applied to the document, containg rating information. Other events like document downloads/views are not taken into account. 
+
+
+## Installation guide
 
 This project contains three subprojects
 
@@ -9,13 +14,13 @@ This project contains three subprojects
 - zaizi-mahout-alfresco4
 - zaizi-recommendations-dashlet-alfresco4
 
-Fivestar installation
+### Fivestar installation
 
 It is a maven project based on alfresco allinone archetype, so you only need to do a mvn clean package to get
 the amps files. If you have any doubt please visit http://docs.alfresco.com/4.2/tasks/dev-extensions-maven-sdk-tutorials-all-in-one-archetype.html.
 
 
-Zaizi-mahout-alfresco4 installation
+###Zaizi-mahout-alfresco4 installation
 
 This project has two modules:
 
@@ -28,7 +33,7 @@ To install it execute mvn clean isntall.
 After that you should install the other module named zaizi-alfresco-mahout. Executing mvn clean isntall.
 
 
-Zaizi-recommendations-dashlet-alfresco4 installation
+### Zaizi-recommendations-dashlet-alfresco4 installation
 
 This project has two modules:
 
@@ -37,7 +42,9 @@ This project has two modules:
 
 Execute mvn clean package in the root folder to get both amp files.
 
-Finally you will have the next amp files to install in you Alfresco instance:
+### Finally
+
+You will now have the next amp files to install in you Alfresco instance:
 
 Alfresco Amps
 
